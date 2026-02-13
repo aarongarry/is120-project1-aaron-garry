@@ -1,8 +1,11 @@
 # is120-project1-aaron-garry
-
-It was hard to make the header background color take up al the space 
-learned to use vertical align for socials in footer
-hover over image and use the image as a link
-Hard to put text floating somewhere on the page
-played around with two colums and percentages after a disaster with relative and absolute going off page. Still not super happy with it and this page overall. 
-After I had to look it up but found a way to get an underline under skills. Hard to center it and used margin align again...
+My initial idea for this project was to have a personal portfolio website. I started by making a consistent header, footer, and nav bar across all three pages.  I struggled with making them take up the entire width but soon learned that I needed to set the margin on the body to 0. 
+One issue I had was trying to align things side by side on the page. I had a hard time with my cards, social logos in the footer, and my homepage image and paragraph. To put them side by side I used inline-block, and to align them vertically I used vertical align which worked great. 
+Centering was also difficult initially but I later learned to use margin auto. 
+One thing I am proud of is my social icons in the footer. I styled them so they would "transform" or get bigger on the hover. I love this look and think I could put this elsewhere on my website in the future. 
+I started to become more comfortable with the box model, using padding for good looks, and margin to space cards out is starting to be natural to me. 
+I feel like I can visualize how I want a card to look then can use css to style them. 
+The most difficult part was my career page. I wanted to have my skills on the left and my professional summary/education cards on the right.
+At first I tried using position relative and moving it over by pixels, but then I realized it looked super weird on different screens. I also tried with absolute position and had a similar issue. 
+To make this work I ended up deciding to have two vertical sections that were styled using a width %. Although its not perfect, it looks pretty good for the most part. I'm looking forward to using flex and grid because I assume that will solve a lot of these issues. I think there is more I can do with my list of skills but I decided to leave it as is for now.  
+The last thing I did was use ::after to put an underline under the skills header. Again this was hard to center but margin auto worked here as well. This was pretty interesting and I like the way it turned out. 
